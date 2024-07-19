@@ -1,0 +1,199 @@
+wav1|Ya ahorita platicaremos qué tiene que ver con la replicabilidad también. Pero, bueno, es un tema que, bueno, ya llevo un ratito trabajando.
+wav2|Y vale mucho la pena abundar en detalles. Bien, pues, me presento tantito. Pues, bueno, yo ya llevo un ratito en esto de la tecnología, ya cerca de 20 años.
+wav3|Trabajado en varios lugares, en Microsoft, Google, Amazon, Naciones Unidas, entre otras. Y, pues, ya he abierto alrededor de 5 empresas relacionadas con automatización.
+wav4|inteligencia artificial, optimización. Y, bueno, pues, básicamente, pues, ya estoy un poquito corridito en esto. Bueno, vamos a hablar un poquito de...
+wav5|algunos proyectos que he hecho, más o menos para que sepan un poquito mi background. Pues, he hecho de todo. Desde algoritmos donde tú le cantas algo y solita la máquina
+wav6|todo el acompañamiento musical está padrísimo hay otro en el que tú pones una canción de youtube te separa los instrumentos por inteligencia artificial los coloca alrededor de un cuarto y escuchas música
+wav7|360 grados, te pones tu headset de realidad virtual y dice, está padrísimo. He hecho también detección de piratería por inteligencia artificial, estabilización de cámara,
+wav8|Edición automática de video con inteligencia artificial. Este también estuvo bueno. Otro que detecta si escribes alguna review en alguna página
+wav9|Y no es justo, o sea, si, por ejemplo, si es un conductor de Uber que lo calificaste negativo porque hubo un montón de tráfico, pues no era su problema, ¿no? O sea, básicamente entender esas situaciones.
+wav10|situaciones que requieren mucho contexto, también este hecho de inteligencia artificial que hace ese tipo de análisis, bots que administran equipos de trabajo, bots que son tus crawlers personales,
+wav11|detectando un montón de cosas y se están entrenando distintos modelos de redes neuronales, ¿no? Ahora, pues, necesitas evaluar si te da buenos resultados o no. Entonces, necesitas valorar.
+wav12|valores como el accuracy, el F1 score. Hay varios que son para clasificación. Si quieres hacer regresión, al fin del día regresar números, no categorías, entonces requieres como CCC, por ejemplo,
+wav13|que es la concordancia en la correlación de coeficientes. Sé que suena algo complicado, pero literal, tú bajas este notebook, lo corres en línea y funciona
+wav14|Ahora, bueno, algo que quiero mencionarles es que esta presentación la voy a compartir. Yo sé que algunos de ustedes van a,
+wav15|querer saber cómo se llaman nombres o URLs, pero se bajan la presentación y la vuelven a ver, ¿sale? Ahora, esto ustedes lo pueden imprimir.
+wav16|Salen estos resultados en gráficas de ver cómo fue aprendiendo, ¿sale? Entonces, el framework también tiene que imprimir estas gráficas, ¿sale? Tiene que ser lo suficientemente...
+wav17|completo para que tú hagas todo el proceso de que pones tu data a ver si realmente aprendió y ya después pruebas, ¿no? Para experimentar si realmente este framework fue técnico,
+wav18|tan adaptable para reconocer acciones en video, lo probé con 2 casos. Uno es con detección de bloopers, ¿sale? Un blooper es, pues, cuando dices algo en la,
+wav19|cámara y te equivocas, ¿no? Y tienes que cortar ese pedazo. Pero una computadora realmente sí podría entender cuándo te equivocas y recortar ese pedazo por ti, ¿no? Si se encuentran las imágenes así como humanos, es difícil de
+wav20|cuando la persona tiene un blooper o no. Pero la computadora no tanto. ¿Por qué? Porque le das muchos ejemplos y con esos ejemplos él aprende a distinguirlo, ¿sale? Entonces, aquí les pongo un ejemplo de cómo está el
+wav21|personales, como Googles personales, detección de pruebas de vida, descubrimiento de medicina con computación cuántica y, en este caso, Quantum Machine Learning,
+wav22|Este framework, pues, sí le dio al grano. De hecho, tuvo una evaluación que fue del 100% acertada. O sea, tenía una accuracy del 100% muy competitiva.
+wav23|entonces lo hizo bien y tuvo lugares donde incluso no tuvo errores entonces quiere decir que todo este ensamble funcionó para datos que yo le di que no estaba hecho
+wav24|hecho el framework para eso. Para eso son los frameworks, para poner casos especiales. Y si ven los números de, esto se llama las matrices de confusión. Esos se utilizan mucho en clasificación de cuánto se equivocó.
+wav25|Pues, no se equivocó tanto, ¿sale? Ahora, bueno, les explico. Ahí detectaba si había blooper o no. Ya después que se hiciera la edición del video, ya es otra cosa, ¿no? Pero al menos eso fue detectado.
+wav26|sección de bloopers. Ahora, después detectar afecto. Afecto no es fácil, ¿eh? Es diferente a las emociones. ¿Por qué? Porque se basa en números, en qué tan intensa
+wav27|es una emoción y qué tan positiva es una emoción dependiendo de eso tú puedes estar alerta excited que es como emocionado no no es excitado o happy
+wav28|feliz o enojado, ¿no? Entonces tú puedes en base a números saber a esa persona cómo está, no sólo darle un nombre, sino la posición donde entra esa emoción. Y si
+wav29|Dice, aquí esta gráfica, entre más 45 grados esté, es que lo hizo mejor. Y aquí sí parece medio de 45 grados, lo que quiere decir que sí predijo bien los valores.
+wav30|Eso fue una tarea de regresión. ¿Por qué? Porque no detectó emociones por nombre, sino por el nivel de las emociones. Entonces, eso es un paso un poquito más complejo y aún así lo hizo bien.
+wav31|Ahí está la liga. Digo, si quieren, saquen el screenshot o se bajan la presentación al final o la ponen por Twitter o háganle lo que quieran. Pero ahí está la liga para que lo prueben. Está bien padre. Después, el otro es,
+wav32|haya dos libros, uno de inteligencia artificial con ejemplos, otro de explicabilidad de la inteligencia artificial y bueno, llevamos un ratito acá con el tema del doctor
+wav33|por ejemplo, de texto, clasificación de texto. Oye, ¿qué técnica me conviene más? Pues probemos todas, caramba. Si están las basadas en bolsa de palabras, en redes neuronales,
+wav34|recurrentes, convolutivas, es más, yo ni sé redes neuronales, ¿cómo voy a empezar? No, pues fácil, nada más sube tus datos, tú di qué texto pertenece a qué,
+wav35|categoría y qué texto pertenece a qué categoría lo pones en la libreta interactiva y ya quedó ya debe ser capaz de
+wav36|pues, de hacer esa categorización por ti. Y además te da los resultados de cada método con cuál fue su performance. Creo que olvidé poner la foto de cómo se ve la gráfica del resultado.
+wav37|Pero al final del día te da una gráfica de cómo funcionó cada método y cuál fue más acertado, ¿sale? Esto lo utilicé para el proyecto que les comenté de detectar
+wav38|si un review era justo o injusto. Si el conductor de Uber le dijeron que le dieron mala calificación, pues, porque había tráfico, pues, eso es injusto.
+wav39|Y tienes otros mensajes que sí son justos y aprende a entender en base al contexto cuándo es justo y cuándo no. Y más o menos así se ve la respuesta de qué algoritmo se vio mejor.
+wav40|En este caso, las redes neuronales convolutivas con las convolucionales funcionaron mejor, la combinación. Entonces, aquí se da en cuenta, incrementó después de un experimento,
+wav41|el número de calificaciones justas que hicimos en, hicimos una interfaz donde si el algoritmo de inteligencia artificial detectaba que era injusta, le decía, oye, no,
+wav42|O sea, es mala onda, ¿no? O sea, quiere decir que los detectó bien. Y en este caso incrementó demasiado, de 5% de las calificaciones justas a 70%. Quiere decir que la inteligencia artificial sí es capaz
+wav43|¿Qué vamos a hablar?
+wav44|de entender el contexto, ¿sale? Y básicamente lo hice con ese documento. No estoy utilizando un algoritmo secreto que no se lo quiero compartir a nadie. Solamente puse los textos
+wav45|clasificados por cada categoría y ya quedó, ¿sale? Ahora, y muchos de hay muchas técnicas que bueno, dices bueno, yo quiero hacer una técnica en específico ya más o menos
+wav46|No sé por dónde va. Ah, bueno, entonces hice un conjunto de información curada, de notebooks, que ya los puedes correr y funcionan, de practicarlo.
+wav47|todas las técnicas de inteligencia artificial. Son alrededor de 100 notebooks. No sé si ya son más o están cerca de los 100. Pero habla de técnicas de machine learning, deep learning y reinforcement.
+wav48|learning. Entonces, les voy a explicar un poquito qué es cada técnica para que sepan cuál usar en cada caso. Primero empecemos con machine learning. ¿Qué framework se usa? Se utiliza mucho
+wav49|es Killern, es el más usado, no sé si Hueca sigue por ahí o qué tan fuerte esté y Matlab, pues si usan Matlab qué valiente, pero es Killern
+wav50|es de los más usados, ¿sale? Primero empecemos con regresión lineal. Es para problemas muy sencillos, ¿no? Donde tú puedes separar con una línea dos categorías, ¿sale? O simplemente quieres calcular un valor.
+wav51|no y si está el punto más o más hacia la derecha pues ya sabes que va a valer más entonces es más para cosas de regresión también se puede usar
+wav52|para categorización para categorización se puede usar por ejemplo separar entre servicios básicos y premium no dependiendo si el usuario tiene cinco focos o cuatro focos en su casa tú puedes
+wav53|poner los criterios. O para regresión, pues, ¿cuánto puede valer una casa en cierta zona, no? Y ahí ya les pongo al menos 3 ligas de,
+wav54|de la reproducibilidad de estos algoritmos de inteligencia artificial, algunas soluciones que hay y hay que entender las técnicas para poder usar estos algoritmos
+wav55|notebooks en los cuales ya hay ejemplos corriendo. Le dan clic, los corren y ya son expertos en regresión lineal. Bueno, al menos en correrlo, ¿no? Ahora, están también los expertos.
+wav56|Pero no resuelve cualquier problema, ¿sale? Hay problemas, por ejemplo, aquí cómo separas las 2 categorías. Si pones una línea así, no se separan. Una así, no se separan. Una así, no se separan.
+wav57|Necesitas crear curvas, ¿no? Pero, pues, aquí es una línea. Entonces, necesitas otro tipo de técnica para problemas más complejos. Para eso también, pues, por ejemplo, están los árboles de decisiones, que es literal, complejo.
+wav58|cómo se escucha, ¿no? Yo primero tomo esta decisión en base a este criterio. Después, en base a este otro criterio, tomo esta otra decisión. Y si armas eso en un árbol, ya tienes reglas para clasificar, ¿no? Bien.
+wav59|Si se dan cuenta, el código realmente es muy sencillo. Tú lo podrías correr en tu máquina. Pero, ¿qué tal si estás en una máquina que ni siquiera tiene Python y tú ya necesitas correr eso? Pues, te vas a un notebook, como.
+wav60|los que estoy poniendo aquí y, pues, de ahí lo corres, ¿no? El resultado que te da es esto, es un árbol de decisiones. Por ejemplo, este es un dataset en el que dice, si el pétalo es más chico de 2%,
+wav61|punto 45 centímetros, entonces tiene que ser una planta que se llama versicolor. O sea, tú ya entiendes las razones de por qué tomó esa decisión, te lo dibuja, ¿sale? Entonces, ¿cuándo usa?
+wav62|a los árboles de decisión cuando realmente como humano necesitas entender qué decisiones tomó, que no sea una caja negra, ¿no? Están los random forest, que básicamente son un montón de árboles
+wav63|Los mismos árboles que vimos de decisión, pero al final toman una decisión en conjunto. Eso es todo. El código es igual de simple, pero ¿para qué lo quieren si ya están estos notebooks?
+wav64|que lo corres en línea y ya quedó. Obviamente, nada más pones tu data, pero todos estos ya tienen data, para que sepan. Son ejemplos corriendo que yo adapté, porque eran ejemplos que no corrían desde,
+wav65|y voy a hablar un poquito de qué se puede hacer, qué técnicas existen. Bueno, ¿qué es reproducibilidad? Es cuando, pues, estos científicos crearon sus algoritmos súper pequeños
+wav66|Google Collaboratory. Y yo lo que hice es que los adapté para incluirle las librerías, incluirle los datos adentro para que solitos corran, ¿no? De otras maneras.
+wav67|te sacarían errores y no podrías correr. Ahora, básicamente es para ver distintas alternativas de árboles, tú manualmente descartar cuáles fueron mejores, pero es básicamente para entenderlos.
+wav68|entender como humanos el proceso que hizo la computadora. Ahora, después están ahí valles. Estos métodos vallese no son solo probabilidad. ¿Cuál es la probabilidad de A dado B?
+wav69|Así de fácil. Ahora, si tú quieres hacer por probabilidad, pues, es Naive Bayes. Igual pones tu dataset de los tipos de categorías que tienes y él se encarga de hacer el análisis.
+wav70|Y es básicamente cuando quieras hacer un análisis probabilístico. Y les dejo más notebooks. No, hombre, esta presentación vale oro, ¿eh? Créanme que hay mucho conocimiento adentro. Ahora, los vecindarios.
+wav71|más cercanos. Por ejemplo, ahí hay un signo de interrogación. Si quiero saber a qué categoría pertenece, veo quiénes son sus vecinos más cercanos. Si solo veo al vecino más cercano, pues es estrella. Pero si veo a
+wav72|A los tres más cercanos, pues si se dan cuenta, pues hay más triángulos que estrellas, entonces debe ser estrella, ¿no? Y si veo los cinco más cercanos, pues tiene que ser triángulo.
+wav73|triángulo, ¿no? O sea, básicamente es en base a los datos que se parecen más, tomas la decisión. ¿Cuándo lo usas? Cuando tú realmente lo quieres hacer como más por intuición. Dices, realmente, ¿qué
+wav74|dale la categoría de a lo que se parezca más. No haces un análisis tan exhaustivo, si no es a lo que se parezca más. Entonces, ahí usas KNNs. Después, cuando tú tienes
+wav75|la información dispersa si quieres encontrar categorías entre ellas pues utilizas que game is esta es una técnica que se llama clustering que es agrupar datos entonces
+wav76|pesados para resolver problemas, pero, pues, luego no es fácil correrlos, ¿no? Porque tienen equipos de cómputo muy complicados o simplemente por distintas razones, ¿no?
+wav77|muchas veces hay casos donde tú ya conoces las categorías en las que vas a clasificar pero a veces tienes solo los datos y no sabes ni qué categorías hay entonces lo metes a esta técnica y él ya te separa
+wav78|por grupos de datos. Tú le dices, oye, yo sé que hay como 3 categorías aquí. Encuéntralas. Y él las encuentra y los separa. Ese proceso inverso, si se dan cuenta, es de agrupación. Y aquí, bueno, pues, es...
+wav79|Este caso es muy diferente a todos los demás, entonces, solo lo usas para eso, cuando quieras agrupar datos. Y les dejo 3 notebooks para que se diviertan ahora con la cuarentena del coronavirus.
+wav80|Support Vector Machine, hombre esto es la técnica más poderosa matemáticamente hablando, esto lo separa con hiperplanos que se dibujan y se retuercen y bueno, esto
+wav81|Entonces, esto lo vemos porque son 3 dimensiones, pero ¿qué pasa si tenemos datos más multidimensionales? 10 características, se generan planos multidimensionales.
+wav82|que ni siquiera podemos imaginar. Pero, bueno, eso, esto, ¿cuándo lo usas? Bueno, cuando quieras hacer realmente muy complejo el
+wav83|reconocimiento de patrones todas estas técnicas son de reconocimiento de patrones de todas y realmente quieras lo más poderoso posible pero que no requiera tanto poder de proceso
+wav84|Entonces, básicamente esto es lo que se usaba antes de las redes neuronales muchísimo. No es porque sea viejo, que ya no se use tanto, sino porque ya no se usa tanto.
+wav85|sino más bien depende de la cantidad de datos. Si tienes una vasta cantidad de datos, vete por redes neuronales. Si no tienes tantos, o sea, si tienes solo miles, pues haz una Support Vector Machine, ¿no?
+wav86|Y funciona de maravillas, de lo mejor que hay. Matemáticamente es una chulada. Y ahí viene la liga, ¿no? Para que lo corras. Logistic regression, pues, básicamente, pues, hay cosas.
+wav87|pero reproducibilidad es como con la misma data que ellos dan y siguiendo las mismas técnicas puede llegar a los mismos resultados replicabilidad es similar, hay
+wav88|tienes que entender un poquito más de matemáticas aquí cómo funcionan los gaussianos cómo son los mapas que se generan los máximos mínimos pero bueno
+wav89|Básicamente se utilizan para optimizar problemas de regresión, vinalización. Es lo que se utiliza, es uno de los principios de las redes neuronales.
+wav90|algo que si tienes el background matemático utilízalo porque puedes entender cómo está distribuida la data ahora perceptron es perceptron es una solar neurona
+wav91|¿Qué pasa si solo tienes una neurona y quieres que haga todo el trabajo? Pues lo puedes hacer con un perceptor, ¿sale? El resultado, obviamente, se hace rapidísimo el cómputo. Es muy sencillo.
+wav92|Es la base de las redes neuronales y ya está el código y es, ah, esto lo pueden usar simplemente, pues, esto ya no se usa tanto porque por lo general usas más de una neurona, pero...
+wav93|puedes usar al menos cultura general, para que sepas cómo funciona una neurona sola, ¿no? Pero la puedes usar para problemas muy sencillos de clasificación. Ahora, si se dan cuenta, el framework,
+wav94|que más se usa es SK scikit-learn, SK-learn ¿por qué? porque tiene la mayor parte de las técnicas de machine learning los demás
+wav95|se utilizan para Deep Learning como TensorFlow, PyTorch. Y ahorita vamos a entrar ya ahora sí a Deep Learning, ¿no? Y me encanta este ejemplo, ¿no? Es básicamente lo que le das el,
+wav96|perrito chihuahua y ya te dice qué es. Entonces, ¿cuándo usar deep learning y cuándo usar machine learning? Deep learning cuando tienes un montón de datos y cuando son datos muy,
+wav97|grandes como imágenes, como audio, etcétera. Si tienes poca información y son números, usa Machine Learning, ¿no? No te compliques la vida. Lo hace muy bien Machine Learning.
+wav98|hablas acerca de cómo resolver la misma pregunta que resolvieron en el experimento original, pero con tus propios datos. Pero ojo, primero necesitas saber reproducir para después replicar.
+wav99|Bueno, yo sé que Deep Learning es parte de Machine Learning, pero las técnicas convencionales de Machine Learning. Ahora, a los redes neuronales se llaman Multilayer Perception.
+wav100|Si ustedes vieron, hace rato vimos los perceptrones, que es una sola neurona. Ahora es como pones un montón de neuronas juntas. Eso es deep learning, ¿no? Un montón de neuronas juntas ahí atascadas en varias capas, ¿no?
+wav101|Aquí se usa Keras, PyTorch, entre otros, TensorFlow, por supuesto. ¿Cuándo lo usas? Cuando tienes un montón de datos, tienes múltiples clases,
+wav102|realmente no son imágenes o información tan pesada, son más números, pero sí tienes un montón. Entonces, ahí usa redes neuronales, hace un montón de análisis combinatorio y te da un resultado.
+wav103|Ahora, resultados neuronales convolucionales. Me encanta ese ejemplo. Básicamente tienes una imagen que se va reduciendo, reduciendo, reduciendo, y tienes una interpretación
+wav104|sencilla de la imagen, se hacen convoluciones sobre ellas, baja su dimensionalidad para que se pueda analizar. Si no, no alcanzaría la memoria de ninguna computadora,
+wav105|para procesar tanta información así se ve una imagen en la memoria se dan cuenta son números y básicamente es como reduces esa imagen a lo más significativo que es lo más significativo de una
+wav106|imagen, los bordes, ¿sale? Ahora, ¿qué framers se usan? ¿Qué era PyTorch? ¿Y cuándo se usa? Cuando usas imágenes, cuando usas videos. No, no, nada de que no, pues, yo quiero usar redes neuronales
+wav107|es para todo, pues, porque dicen que son bien buenas. No, no, se usan para imágenes, ya. No le hagan al cuento. Se pueden, no sé, para otras cosas como texto convertirte
+wav108|en matrices que representen un tipo de imagen. Pero para texto hay otras técnicas, ¿vale? Por ejemplo, esta es muy buena para texto.
+wav109|Entonces, es como por estapas. Por eso vamos a hablar primero de la reproducibilidad. Y estamos en una crisis. Realmente, muchos de estos algoritmos súper pesados, por ejemplo, este que ganó...
+wav110|Recurrent Neural Networks es cuando son secuencias, cuando son datos estructurados. Un video es una secuencia de imágenes. Un texto es una secuencia de palabras. ¿Qué se usa? Los mismos.
+wav111|que era spider y todos esos cuando cuando se usan secuencias y por ejemplo series de tiempo series de tiempo es un tema muy usado en todos lados y cómo
+wav112|de una forma que da buenos resultados con Recurrent Neural Networks. Es donde importa el orden de los factores, ¿sale? Pero también hay algunos, alguna parte,
+wav113|de técnicas, ¿no? Como los ensambles. Dices, oye, pues yo ¿qué pasa si pongo cinco técnicas juntas y en base a su resultado se tome, pues, un concepto?
+wav114|De cuál fue la mejor y hace un consenso votado o un consenso igualitario, pero son varias técnicas juntas, ¿no? Y la otra es la mezcla, la fusión de caracteres.
+wav115|características quiere decir que yo saqué las características de la cara del audio y quiero sacar un solo resultado no quiero decir del audio sí sí parece que es una categoría
+wav116|Si el texto parece que es una categoría, no. Las quiero conjuntar en algún momento para que se procesen, se haga este reconocimiento de patrones y me dé un resultado, ¿no? Esta inferencia.
+wav117|Ahora, ¿cuándo se usan? Cuando quieres hacer esta comparativa, este benchmark. Cuando quieres los modelos, evaluar varios modelos juntos,
+wav118|y sacar una respuesta en conjunto. Y se usa cuando no es tan exhaustivo cada modelo, porque si tienes tres modelos pesadísimos que tienen un montón de redes neuronales
+wav119|Si quieres evaluar los tres y hacer un consenso, pues es muy pesado. Mejor nada más unes las características y haces un análisis de esas, ¿no? O del output.
+wav120|no el juego de Go, pues, qué padre que los hicieron, pero, pues, al final del día, ¿quién lo puede volver a correr, no? Entonces, hay una crisis de reproducibilidad de los algoritmos e integradores.
+wav122|inteligencia artificial algunas causas pueden ser acceso a esos datos que ellos usaron o el mismo ambiente de trabajo o que muchas veces se toman
+wav123|batches de información al azar, y, pues, necesitas utilizar como la misma información para tener el mismo resultado. Las técnicas de implementación y, por supuesto, la capacidad computacional
+wav124|Y, bueno, pensando acerca de algunas soluciones, yo he trabajado en 3 áreas en específico.
+wav125|cómo crear un framework como tal que permita hacer algoritmos de inteligencia artificial reproducible. El otro es cómo hacer comparativas de algoritmos y que tú
+wav126|en base al que jaló mejor, te vas por ese. Y la otra es cómo hacer cada uno de los métodos de inteligencia artificial reproducible, uno por uno.
+wav127|Yéndonos por el primero, hice un framework que es para reconocimiento de acciones en videos. Por ejemplo, si tienes videos de gente caminando y videos de gente corriendo,
+wav128|ya después cuando le pases un nuevo video va a entender si esa persona está corriendo o caminando, ¿no? Es básicamente cómo aprendes de videos, pero los videos son complejos porque eso es la imagen, es el audio, puedes transcribir,
+wav129|el audio a texto y manejar ahora texto puedes detectar la cara de la gente las emociones toda una de estas características de las que estoy hablando se llama
+wav130|llaman modalidades. Y cuando utilizas multimodales, como utilizas un montón de variantes de la misma data para analizarla, en este caso,
+wav131|Imágenes, texto, audio, ¿no? Otro, que es el, yendo por el segundo approach, es, OK, va, tengo varios, quiero hacer clasificación de texto.
+wav132|Tengo dos tipos de texto, ¿no? Los comentarios justos y los injustos. Tú con eso entrenas, pero ahora, ¿con qué método entreno? Pues esto, digamos que entrenan a varios métodos y te enseñan cuál es el mejor método.
+wav133|Pero, pues, básicamente tú lo ves, ¿no? Y la otra es que, pues, hice un compendio de muchos de los algoritmos de inteligencia artificial. Yo podría decir que casi todos popularizaron,
+wav134|Son cerca de 100 libretas de trabajo interactivas en las cuales tú te metes, pones tu data, entrenas y ya quedó. No necesitas ni siquiera configurar nada en tu computadora.
+wav135|Entonces, voy a explicar un poquito en base a mi experiencia qué se requiere para lograr cada una de ellas, qué existe, qué herramientas hay y cómo llegar a estos resultados de la reproducción.
+wav136|también para que ustedes hagan reproducible su trabajo y puedan hacer reproducible el trabajo de otros que es también parte de lo que hago debía platicar acerca de mi experiencia sale de todo lo
+wav137|me ha tocado, con todo lo que me he topado y hay un buen de retos aquí. Primero, para crear este framework, pues, el framework debe de procesar los datos, debe de extraer las características,
+wav138|características principales de los datos. Porque, por ejemplo, no es que le mandes una imagen completa a las redes neuronales, no. Tú, bueno, sí la mandas, pero realmente haces el análisis
+wav139|sobre las características principales de esa imagen. O sea, en vez de ser millones de pixeles, te enfocas en 4,000 números que representan a la
+wav140|imagen. Eso se llama el Feature Engineering. Cómo de esa información compleja solo extraes lo que te ayuda para discriminar, ¿sabe? Para hacer más diferentes los datos entre unos y otros.
+wav141|La otra es entrenamiento, debe evaluar y debe documentarlo en un formato que todo mundo entienda, que cuando alguien vea el documento pueda correrlo de forma fácil y tenga una interfaz sencilla.
+wav142|Es importante que sea inclusivo, ¿sale? Para que sea inclusivo, pues, eso ayuda, pues, que sea inclusivo a que tenga un impacto más grande, ¿no? Que si todo mundo lo puede usar, pues, va a tener un impacto más grande.
+wav143|Entonces, ayudaría que fuera online, que realmente no requirieras ningún requisito de hardware para correr estos algoritmos de inteligencia artificial, ni configuración extra y además sea gratis.
+wav144|yo sé que pido las perlas de la virgen pero créanme que se puede ahora, para eso yo creo que es esta cosa que primero suena como en chino, multi effect, reproduce
+wav145|research framework for multimodal video classification and regression tasks at ultrasound level with spatial temporal feature fusion by using face, body, audio, text, and emotion feature.
+wav146|¿Qué carambas es eso? Eso en pocas palabras es una herramienta que te permite hacer actividades de clasificación, de definir si es perro o perro.
+wav147|o regresión, definir un número, oye, pues una casa que está en tal lugar, ¿cuánto va a costar? Dependiendo de estas características, al final del día sale un número de resultado, es otra
+wav148|regresión y clasificación sale una categoría y es usando las características de nuestra cara, nuestro esqueleto, nuestro cuerpo, el audio, el texto y las emociones que
+wav149|Para hacer eso, pues, primero tuve que hacer la configuración de una plataforma, meter todos los algoritmos de reconocimiento de características dentro.
+wav150|de evaluación y poner algunos templates de diseño para el documento ahora para poder hacer esto
+wav151|Pues, fueron varios pasos, ¿no? El primer paso, pues, es preparar la máquina. Le tienes que instalar las librerías de todo, ¿sale? Y, además, los datos.
+wav152|los tienes que jalar de algún lado, ¿no? Les tienes que dar las URLs de dónde están. Y, pues, necesitas todos estos algoritmos que extraigan estas características y créanme que requieren mucho,
+wav153|recursos estos algoritmos. Ahora, para lidiar con eso, pues, hay varios retos. Estos algoritmos que extraen las características principales
+wav154|de los datos por ejemplo las características principales de tu cara pues requieren muchas hasta que ser compiladas en el sistema operativo y yo creo que el que ha compilado alguna librería
+wav155|conocen distintos rasgos de tu cuerpo, de tu voz, de todo. Es muy complicado, créanmelo, y hay muchos errores. Entonces, al final del día, tú tienes que lidiar con eso, ¿no?
+wav156|una máquina y que todo te funciona pero eso es muy complicado si lo haces en una máquina y después en otra por lo tanto que necesitas máquinas virtuales sale una máquina
+wav157|virtual básicamente ya tiene el mismo sistema operativo y con el estado inicial igualito o si tú abres otra máquina virtual va a estar igualita entonces el tiempo que tú le dediques
+wav158|Instalándole las librerías y adaptándolas, compilando, haciendo los modelos preprocesados, lo que necesites hacer, vale la pena hacerlo porque es algo estandarte.
+wav159|Y bueno, y tú la puedes montar en línea. ¿Cómo la puedes montar en línea? Con las libretas de trabajo interactivas, los famosos notebooks, Jupyter Interactive Notebooks, ¿no?
+wav160|Jupyter es básicamente un documento de texto, así como este, en el cual tú pones código, pones texto, y es más, ni siquiera tiene que ser solo código, también puede ser líneas de comando del sistema operativo.
+wav161|o como están viendo ahí. Y, básicamente, tú le das correr y se corre el código desde una libreta de trabajo, ¿no? La ventaja de Google Collaboratory es que ellos no solo tienen.
+wav162|Entonces, para correr simplemente hay código en una computadora sencilla, sino corre en la infraestructura de Google y corre en CPUs, en GPUs y TPUs.
+wav163|que son procesadores especiales. Además tienes 12 GB en RAM, 350 GB en disco duro y un GPU creo que es de más de 1,000 núcleos o
+wav164|O sea, es bueno el K80 De Tesla GPU Marca NVIDIA Está bien bueno, créanmelo Y lo tienes gratis, no tienes que pagar un centavo Entonces
+wav165|bueno, empezando por ahí, ya tenemos una herramienta que nos permite, que tiene la capacidad de correr inteligencia artificial, ¿sale? Ahora, estos, pues, tienen Ubuntu, ¿sí?
+wav166|Tienen Python 2 y 3, aunque, bueno, pues, ya nada más están dejando la versión de Python 3 disponible. Y, básicamente, es gratis y ahí puedes correr tus algoritmos. Ahora.
+wav167|OK, entonces, primer paso, como dijimos, es necesitas compilar las librerías para este sistema operativo, que ya sabemos que es un Ubuntu que va a correr en estos notebooks que están.
+wav168|en línea sale segundo paso pues es hacer ya el empaquetado de todo lo pre compilado y el tercero pues ya dejar una versión óptima no para el primer paso pues sí como les comenté
+wav169|es bajar librerías, compilarlas. Y una vez que las tienes compiladitas, las empaquetas, ¿sale? Bajar todos los datos que necesitas y localizarlos.
+wav170|los empaquetas, porque muchas veces son distintos tipos de datos, muchas veces vienen en distintos batchs. Unos son de training, otros de testing.
+wav171|Bueno, al final ya necesitas un montón de archivos, pero necesitas empaquetarlos. Les voy a decir por qué. Porque cuando los empaquetas, no sé si se han dado cuenta que
+wav172|archivos es más rápido copiar un archivo zip que copiar 100.000 archivos pequeñitos porque porque el sistema operativo tiene que estar guardando teniendo control de que se copie
+wav173|viene archivo por archivo y eso es muy tardado. En cambio, si ustedes ya los archivos que se compilaron los ponen en un zip y los guardan en Google Drive, todos los archivos
+wav174|usar de modelos precompilados de los datasets. Porque, por ejemplo, un dataset a veces son millones de fotos. Y copiar millones de fotos va a tardar, pero un resto de tiempo.
+wav175|En cambio, si lo comprimes, pues, nada más copias un solo archivo y eso no tarda tanto. Y una vez que ya tienes todos estos empaquetados, ahora sí en el notebook solo importas todo lo que
+wav176|ya procesaste antes. Entonces, digamos que tienes un notebook versión 0 en el cual se tarda un montón compilando, bajando archivos. Y un notebook versión 1 donde todos estos emprendimientos
+wav177|Ya los tienes en Google Drive y los descargas de Google Drive. Si quieren hacer eso, hay una herramienta que se llama G-Down. Se la recomiendo. Esta herramienta, pues, le das la URL de Google Drive y se lo descarga por link.
+wav178|línea de comandos. Está bien bueno. Ahora, en este caso es mucho el tiempo que ahorras. Por ejemplo, en mi caso, en el,
+wav179|en el framework que yo hice, se trataba 43 minutos en preparar la máquina virtual. Ya después de esto se tarda solo 6 minutos. Pero son 6 minutos porque carga gigas.
+wav180|gigas de información de videos, ¿sale? De librerías precompiladas. Entonces, olvídense, ya esto ya no lo tienen que hacer en su compu, lo hacen en esta máquina virtual y cuando quieran correrlo, lo corren allá.
+wav181|Ahora, como les digo, se necesitan estas herramientas para extraer lo valioso de la información, ya sea de caras, de cuerpo, de audio y de texto.
+wav182|de muchos tipos de features existen, ¿sale? Incluso el esqueleto del cuerpo, ahorita les enseño. Les voy a decir algunas librerías que a mí me han servido también para que ustedes cuando quieran
+wav183|quieran analizar audio, no es de, ay, le paso el archivo web, no, o el MP3, no. Lo tienes que prepostezar y necesitas generar los features. Entonces, ¿qué necesitas? Necesitas Open Smile, ¿no?
+wav184|Hay muchas, pero la verdad esta es la que mejor me ha funcionado. En vez de que tengas un archivo de audio, por ejemplo, de 10 megas, Open Smile genera 1,582.
+wav185|números. Y eso representa todo el archivo de audio. Bueno, un segmento del archivo de audio, ¿sale? Entonces, bueno, segmentos chicos. Pero en
+wav186|Entonces, realmente estás procesando información muy puntual, muy pequeña. O para texto puedes usar algo que se llaman lexicons, que es básicamente vector, bueno,
+wav187|conjuntos de palabras que están reunidas por categorías y simplemente tú haces consolidados sumarizaciones acerca de cada palabra, de qué tipo pertenece
+wav188|Y en base a esas es un vector. Pero, bueno, en pocas palabras se llaman léxicos. También existen vectores de palabras como globe, que ya son modelos preprocesados que ya tienen los periódicos.
+wav189|pesos de cada palabra. Y BERT, que eso fue entrenado con millones y millones y millones de textos. Entonces, eso lo hizo Google y funciona muy bien para análisis de texto. Es lo más nuevo que hay.
+wav190|extracción de características de la cara, pues también le pasas la cara, pero eso lo convierte a setecientos nueve números. Y eso ya representa tu cara, no necesitas ver la
+wav191|También puedes usar otra que se llama VGG, pero eso extrae más datos generales, no específicos de la cara. Si quieres extraer detalles del esqueleto, al final del día te va a
+wav192|Digamos que no te ven cuerado, pero sí te ven los huesos, ¿no? La máquina. Entonces, si quieres sacar el esqueleto como tal, hay uno que se llama OpenPose, que ya tiene 25 joints, que son...
+wav193|uniones de huesos de tu cuerpo y básicamente ahí representa cómo sería tu esqueleto y puedes analizar después los esqueletos
+wav194|dibujados también con otra alegría de bg que es básicamente entrenada con imágenes ahora si quiere detectar en mí me emociones hay un examen o pay es muy buena hay muchísimas pero ésta detecta siete
+wav195|lesiones faciales y es bastante bueno. Ahora, todas esas librerías yo las monté en el framework. ¿Por qué? Porque si estoy detectando emociones,
+wav196|Si una persona cambia de feliz a contento, pues muchas veces depende cómo mueven sus hombros, cómo depende, mueve la cara o incluso ahorita les voy a enseñar algunos casos en los que los probé y cómo importan.
+wav197|realmente saber más información, más que solo imágenes sin contexto, ¿no? Ahora, para entrenarlos se utilizaron varias técnicas de inteligencia artificial. Uno son Recurrent Neural
+wav198|networks, convolutional neural networks y deep neural networks. Ojo, muchas veces escuchamos estos nombres, pero no sabemos ni para qué son. Bueno, las RNN son básicamente para secuencias.
+wav199|Las CNN son para imágenes. Y MLP, Deep Neural Networks Básicas, las Multilayer Perceptors, así se llaman,
+wav200|cuando tienes números, ¿no? Digo, para que sepan cuándo se usa cada cosa. Y con eso se arma este modelo enorme en el cual metes video y sea lo que sea que quieras averiguar en esos videos, lo vas a detectar bien porque estás,
